@@ -68,7 +68,6 @@ body {
     color: white;
 }
 
-
 .icon-input-group .btn-search {
     background-color: #f39c12;
     border: none;
@@ -117,7 +116,6 @@ body {
     font-size: 1.2rem;
     margin-top: 10px;
 }
-
 
 .footer {
     padding: 20px 0;
@@ -196,39 +194,6 @@ body {
 .content-section p {
     font-size: 1rem;
     color: #666;
-}
-
-/* Footer Styles */
-.footer {
-    padding: 20px 0;
-}
-
-.footer p {
-    margin: 0;
-}
-
-.footer ul {
-    padding: 0;
-    list-style: none;
-    margin-top: 10px;
-}
-
-.footer ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-.footer ul li a {
-    color: #f39c12;
-    text-decoration: none;
-}
-
-.footer ul li a:hover {
-    text-decoration: underline;
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .flight-form {
@@ -352,7 +317,6 @@ html {
     scroll-behavior: smooth; /* Desplazamiento suave en los anclajes */
 }
 
-/* Contenedor del formulario de empleados */
 .employee-form {
     background-color: #f8f9fa; /* Fondo claro */
     padding: 20px;
@@ -362,7 +326,6 @@ html {
     margin: 0 auto; /* Centrar el formulario */
 }
 
-/* Estilo para los inputs del formulario */
 .employee-form input[type="text"],
 .employee-form select {
     border: 1px solid #ced4da; /* Borde gris claro */
@@ -373,7 +336,6 @@ html {
     box-sizing: border-box;
 }
 
-/* Estilo de las etiquetas */
 .employee-form label {
     font-weight: 500;
     margin-bottom: 8px;
@@ -381,7 +343,6 @@ html {
     color: #333; /* Color de texto oscuro */
 }
 
-/* Botón de agregar empleado */
 .employee-form .btn {
     background-color: #f9a825; /* Color amarillo para el botón */
     color: white;
@@ -399,7 +360,6 @@ html {
     background-color: #f57f17; /* Cambio de color al hacer hover */
 }
 
-/* Alineación de los campos del formulario */
 .employee-form .row {
     display: flex;
     flex-wrap: wrap;
@@ -412,7 +372,6 @@ html {
     min-width: 200px;
 }
 
-/* Estilo de la tabla de empleados */
 #employee-results table {
     width: 100%;
     border-collapse: collapse;
@@ -436,18 +395,15 @@ html {
     background-color: #ffffff;
 }
 
-/* Alternar el color de las filas */
 #employee-results tbody tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
 
-/* Efecto hover en las filas */
 #employee-results tbody tr:hover {
     background-color: #f1f1f1;
     cursor: pointer;
 }
 
-/* Botones de acción en la tabla */
 #employee-results .btn {
     background-color: #f9a825;
     color: white;
@@ -462,14 +418,12 @@ html {
     background-color: #f57f17;
 }
 
-/* Estilo responsive para pantallas pequeñas */
 @media (max-width: 768px) {
     #employee-results th, #employee-results td {
         padding: 10px;
     }
 }
 
-/* Encabezado de la sección de Gestión de Empleados */
 #gestion-empleados h2 {
     text-align: center;
     font-size: 32px;
@@ -478,13 +432,11 @@ html {
     color: #333;
 }
 
-/* Contenedor general */
 #gestion-empleados .content-section {
     margin: 40px auto;
     padding: 20px;
 }
 
-/* Botones de acción dentro de la tabla */
 #employee-results .btn-warning {
     background-color: #ffc107;
     color: white;
@@ -522,7 +474,6 @@ html {
     box-sizing: border-box;
 }
 
-/* Estilo del mensaje de error */
 #login-message {
     color: red;
     font-size: 16px;
@@ -530,7 +481,6 @@ html {
     margin-top: 10px;
 }
 
-/* Botón de inicio de sesión */
 .login-form .btn {
     background-color: #f9a825; /* Color del botón */
     color: white;
@@ -547,7 +497,7 @@ html {
 .login-form .btn:hover {
     background-color: #f57f17; /* Cambio de color en hover */
 }
-/* Estilo del formulario de incidencias */
+
 .incidencia-form input,
 .incidencia-form select,
 .incidencia-form textarea {
@@ -572,8 +522,6 @@ html {
 .incidencia-form .btn:hover {
     background-color: #e67e22;
 }
-
-/* Tabla de resultados de incidencias */
 
 table {
     width: 100%;
@@ -604,7 +552,6 @@ tbody tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
 
-
 .incidencia-form input, 
 .incidencia-form select, 
 .incidencia-form textarea {
@@ -613,21 +560,6 @@ tbody tr:nth-child(odd) {
     margin: 10px 0;
     border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-.incidencia-form .btn {
-    background-color: #f39c12;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.incidencia-form .btn:hover {
-    background-color: #e67e22;
 }
 
 #incidenceCards {
@@ -652,4 +584,38 @@ tbody tr:nth-child(odd) {
     padding: 10px 20px;
 }
 
+@media (max-width: 768px) {
+    .features-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-section {
+        height: 50vh;
+    }
+
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .about-section {
+        height: auto;
+    }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    #flight-results, #parking-results, #employee-results {
+        overflow-x: auto;
+    }
+
+    .content-section {
+        padding: 20px;
+    }
+}
 
